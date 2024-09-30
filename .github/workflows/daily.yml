@@ -1,5 +1,6 @@
 name: Daily claim
 on:
+  workflow-dispatch:
   schedule:
     - cron: '0 14 * * *' # <- Use UTC Time +0 , change your time here ( 14 is hour , 0 is minutes ) and use 24-hour format
 
